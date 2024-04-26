@@ -1,4 +1,4 @@
-//? #version 320 es
+//? #version 310 es
 #extension GL_ARM_shader_framebuffer_fetch_depth_stencil : enable
 
 out highp uint color;

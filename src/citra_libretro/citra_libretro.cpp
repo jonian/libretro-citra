@@ -617,7 +617,7 @@ bool retro_load_game(const struct retro_game_info* info) {
 #elif defined(USING_GLES)
         emu_instance->hw_render.context_type = RETRO_HW_CONTEXT_OPENGLES3;
         emu_instance->hw_render.version_major = 3;
-        emu_instance->hw_render.version_minor = 2;
+        emu_instance->hw_render.version_minor = 1;
 #else
         emu_instance->hw_render.context_type = RETRO_HW_CONTEXT_OPENGL_CORE;
         emu_instance->hw_render.version_major = 3;

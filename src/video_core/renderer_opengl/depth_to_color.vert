@@ -1,4 +1,4 @@
-//? #version 320 es
+//? #version 310 es
 
 const vec2 vertices[4] =
     vec2[4](vec2(-1.0, -1.0), vec2(1.0, -1.0), vec2(-1.0, 1.0), vec2(1.0, 1.0));
